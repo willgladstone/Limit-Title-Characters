@@ -1,0 +1,81 @@
+# Copyright (C) 2012 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/limit-a-post-title-to-x-"
+"characters\n"
+"POT-Creation-Date: 2012-02-19 16:16:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: lptx.php:64 lptx.php:69
+msgid "Your title's character count:"
+msgstr ""
+
+#: lptx.php:78
+msgid "You are over the maximum allowed characters for the title!"
+msgstr ""
+
+#: lptx.php:107
+msgid "of"
+msgstr ""
+
+#: lptx.php:109
+msgid "Clear the title field"
+msgstr ""
+
+#: lptx.php:174
+msgid "Limit a Post Title to X Characters Options Page"
+msgstr ""
+
+#: lptx.php:187
+msgid ""
+"Below are the optional setting that you can change to alter the default "
+"usage of the plugin."
+msgstr ""
+
+#: lptx.php:193
+msgid "Maximum allowed"
+msgstr ""
+
+#: lptx.php:196
+msgid "Enter the maximum number of character allowed in the title of a post."
+msgstr ""
+
+#: lptx.php:202
+msgid "Disable limit for admins"
+msgstr ""
+
+#: lptx.php:205
+msgid "Yes"
+msgstr ""
+
+#: lptx.php:206
+msgid "No"
+msgstr ""
+
+#: lptx.php:213
+msgid "Database Options"
+msgstr ""
+
+#: lptx.php:215
+msgid "Restore defaults upon plugin deactivation/reactivation"
+msgstr ""
+
+#: lptx.php:216
+msgid ""
+"Only check this if you want to reset plugin settings upon Plugin reactivation"
+msgstr ""
+
+#: lptx.php:221
+msgid "Save Changes"
+msgstr ""
+
+#: lptx.php:238
+msgid "Settings"
+msgstr ""
