@@ -1,3 +1,5 @@
+This is a modification of jpmurrays plugin which allows any post type to have it's title limited.  See the readme below.
+
 === Limit a post title to X characters ===
 Contributors: jpmurray
 Donate link: http://pasunecompagnie.com/limit-a-post-title-to-x-characters/
