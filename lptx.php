@@ -84,13 +84,13 @@ function lptx_scriptsNl18n() {
 	if ( $options['admin_disable']==1) {
 		// if plugin is activated, do stuff !.
 		if ( !current_user_can( 'administrator' ) ) {
-			wp_enqueue_style('lptx_css',WP_PLUGIN_URL . '/limit-a-post-title-to-x-characters/css/lptx-style.css');
-			wp_enqueue_script('lptx_js',WP_PLUGIN_URL . '/limit-a-post-title-to-x-characters/js/lptx-script.js',array('jquery'),'1.b',true );
+			wp_enqueue_style('lptx_css',WP_PLUGIN_URL . '/limit-title-characters/css/lptx-style.css');
+			wp_enqueue_script('lptx_js',WP_PLUGIN_URL . '/limit-title-characters/js/lptx-script.js',array('jquery'),'1.b',true );
 			wp_localize_script('lptx_js', 'traductionFromWP', $traduction );
 		}
 	} else if ( $options['admin_disable'] == 2 ) {
-		wp_enqueue_style('lptx_css',WP_PLUGIN_URL . '/limit-a-post-title-to-x-characters/css/lptx-style.css');
-		wp_enqueue_script('lptx_js',WP_PLUGIN_URL . '/limit-a-post-title-to-x-characters/js/lptx-script.js',array('jquery'),'1.b',true );
+		wp_enqueue_style('lptx_css',WP_PLUGIN_URL . '/limit-title-characters/css/lptx-style.css');
+		wp_enqueue_script('lptx_js',WP_PLUGIN_URL . '/limit-title-characters/js/lptx-script.js',array('jquery'),'1.b',true );
 		wp_localize_script('lptx_js', 'traductionFromWP', $traduction );
 	}
 }
@@ -247,7 +247,7 @@ function lptx_validate_options( $input ) {
 function lptx_plugin_action_links( $links, $file ) {
 
 	if ( $file == plugin_basename( __FILE__ ) ) {
-		$lptx_links = '<a href="'.get_admin_url().'options-general.php?page=limit-a-post-title-to-x-characters/lptx.php">'.__('Settings').'</a>';
+		$lptx_links = '<a href="'.get_admin_url().'options-general.php?page=limit-title-characters/lptx.php">'.__('Settings').'</a>';
 		// make the 'Settings' link appear first
 		array_unshift( $links, $lptx_links );
 	}
