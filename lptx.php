@@ -146,7 +146,7 @@ function lptx_delete_plugin_options() {
 // Define default option settings
 function lptx_add_defaults() {
 	$tmp = get_option( 'lptx_options' );
-    if ( ( $tmp['chk_default_options_db'] == '1' ) || ( !is_array( $tmp ) ) ) {
+    if ( ( !empty( $tmp['chk_default_options_db'] ) && ( $tmp['chk_default_options_db'] == '1' ) ) || ( !is_array( $tmp ) ) ) {
 		delete_option( 'lptx_options' ); // so we don't have to reset all the 'off' checkboxes too! (don't think this is needed but leave for now)
 		$arr = array(	"char_limit" => "144",
 						"post_types" => array( 'post' ),
