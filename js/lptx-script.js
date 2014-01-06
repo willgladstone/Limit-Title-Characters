@@ -16,7 +16,7 @@ jQuery(document).ready(function(){
 			}
 			jQuery('#lptx-counter').html(counter);
 		}
-		jQuery('#empty-title').click(function(){jQuery('#title').val("").focus();jQuery('#lptx-counter').html(0);});
+		jQuery('#empty-title').click(function(){jQuery('#title').val("").focus();jQuery('#lptx-counter').html(0);i = jQuery('#title').val().length;});
 		jQuery('#publish').mousedown(function(){
 			//Make sure we're on a page that has the title limit metabox
 			if ( maximum ) {
