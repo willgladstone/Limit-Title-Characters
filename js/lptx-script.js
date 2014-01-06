@@ -19,7 +19,7 @@ jQuery(document).ready(function(){
 		jQuery('#empty-title').click(function(){jQuery('#title').val("").focus();jQuery('#lptx-counter').html(0);});
 		jQuery('#publish').mousedown(function(){
 			//Make sure we're on a page that has the title limit metabox
-			if ( $('#count-characters-in-title').length > 0 ) {
+			if ( maximum ) {
 				if(i <= maximum){
 					//if we're not over the maximum allowed by the plugin, everything is fine. But you could do something here if you wanted.
 					return true;
